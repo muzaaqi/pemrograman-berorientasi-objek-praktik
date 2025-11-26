@@ -16,3 +16,8 @@ class Menu:
             print(f'Menu "{self.nama}" sekarang habis.')
         else:
             print(f'Menu "{self.nama}" sudah tidak tersedia.')
+
+menu = Menu("Nasi Goreng", 20000)
+menu.pesan()
+menu.habis() 
+menu.pesan() 
